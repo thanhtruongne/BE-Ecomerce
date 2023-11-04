@@ -10,7 +10,7 @@ let sendMailResetPasswordToken = async(dataSend) => {
       secure: false,
       auth: {
         user: process.env.EMAIL_APP_NAME,
-        pass: process.env.EMAIL_APP_PASSWORD
+        pass: 'mtykbrzrkldcawwi'
       }
     });
    
@@ -31,7 +31,7 @@ let sendEmailAccuracyEmailRegister =async(dataSend) => {
     secure: false,
     auth: {
       user: process.env.EMAIL_APP_NAME,
-      pass: process.env.EMAIL_APP_PASSWORD
+      pass: 'mtykbrzrkldcawwi'
     }
   });
  
